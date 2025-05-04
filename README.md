@@ -10,7 +10,7 @@ The repository is organized into separate homework assignments:
 - `csci2600-hw1`: Homework 1 
 - `csci2600-hw2`: Homework 2
 - `csci2600-hw3`: Homework 3
-- `csci2600-hw4`: Homework 4
+- `csci2600-hw4`: Homework 4 to Homework 7
 
 Each homework directory contains source code, tests, and documentation.
 

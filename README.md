@@ -1,6 +1,6 @@
 # CSCI 2600 - Coursework
 
-This repository contains my coursework for CSCI 2600 - Data Structures and Algorithms.
+This repository contains my coursework for CSCI 2600 - Principles Of Software Spring 2025
 
 ## Structure
 

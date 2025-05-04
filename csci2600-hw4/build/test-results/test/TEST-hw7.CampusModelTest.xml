@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw7.CampusModelTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.008">
+  <properties/>
+  <testcase name="testUnknownBuilding()" classname="hw7.CampusModelTest" time="0.001"/>
+  <testcase name="testFindBuildingWithNullOrEmpty()" classname="hw7.CampusModelTest" time="0.001"/>
+  <testcase name="testFindBuilding()" classname="hw7.CampusModelTest" time="0.001"/>
+  <testcase name="testCalculateDirection()" classname="hw7.CampusModelTest" time="0.0"/>
+  <testcase name="testFindShortestPathNoPath()" classname="hw7.CampusModelTest" time="0.001"/>
+  <testcase name="testFindShortestPathWithNullBuildings()" classname="hw7.CampusModelTest" time="0.001"/>
+  <testcase name="testGetAllBuildings()" classname="hw7.CampusModelTest" time="0.002"/>
+  <testcase name="testFindShortestPath()" classname="hw7.CampusModelTest" time="0.001"/>
+  <testcase name="testFindShortestPathSameBuilding()" classname="hw7.CampusModelTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

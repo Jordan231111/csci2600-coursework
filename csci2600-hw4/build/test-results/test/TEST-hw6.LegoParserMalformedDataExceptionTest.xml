@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw6.LegoParserMalformedDataExceptionTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.0">
+  <properties/>
+  <testcase name="testExceptionUsage()" classname="hw6.LegoParserMalformedDataExceptionTest" time="0.0"/>
+  <testcase name="testConstructorWithMessageAndCause()" classname="hw6.LegoParserMalformedDataExceptionTest" time="0.0"/>
+  <testcase name="testConstructorWithMessage()" classname="hw6.LegoParserMalformedDataExceptionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw7.CampusPathsTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.016">
+  <properties/>
+  <testcase name="testUnknownBuilding()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <testcase name="testUnknownOptionDirectInputSimulation()" classname="hw7.CampusPathsTest" time="0.0"/>
+  <testcase name="testRoute()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <testcase name="testMenu()" classname="hw7.CampusPathsTest" time="0.0"/>
+  <testcase name="testUnknownOption()" classname="hw7.CampusPathsTest" time="0.0"/>
+  <testcase name="testMainNoSuchElementException()" classname="hw7.CampusPathsTest" time="0.002"/>
+  <testcase name="testListBuildings()" classname="hw7.CampusPathsTest" time="0.003"/>
+  <testcase name="testMainMethodWithIOException()" classname="hw7.CampusPathsTest" time="0.0"/>
+  <testcase name="testEmptyUserInput()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <testcase name="testMainIOExceptionOnModelLoad()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <testcase name="testSameBuilding()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <testcase name="testNoPath()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <testcase name="testNameRoute()" classname="hw7.CampusPathsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Error loading campus data: non_existent_file.csv (No such file or directory)
+]]></system-err>
+</testsuite>

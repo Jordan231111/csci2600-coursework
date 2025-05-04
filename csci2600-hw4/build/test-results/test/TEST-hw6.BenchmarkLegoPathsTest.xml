@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw6.BenchmarkLegoPathsTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:35" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.012">
+  <properties/>
+  <testcase name="Benchmark with a non-existent file" classname="hw6.BenchmarkLegoPathsTest" time="0.0"/>
+  <testcase name="Benchmark with a valid basic CSV file" classname="hw6.BenchmarkLegoPathsTest" time="0.001"/>
+  <testcase name="Test BenchmarkLegoPaths main method" classname="hw6.BenchmarkLegoPathsTest" time="0.006"/>
+  <testcase name="Test extractAvailableParts directly (requires LegoPaths access)" classname="hw6.BenchmarkLegoPathsTest" time="0.002"/>
+  <testcase name="Benchmark with a file containing no parts" classname="hw6.BenchmarkLegoPathsTest" time="0.001"/>
+  <testcase name="Test extractAvailableParts with no parts" classname="hw6.BenchmarkLegoPathsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

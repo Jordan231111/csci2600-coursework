@@ -1,0 +1,85 @@
+# Build Artifacts
+build/
+bin/
+*.class
+.gradle/
+out/
+
+# IDE Files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Large Data Files (Do Not Commit)
+data/courses.csv
+data/large_graph.csv
+data/lego*.csv
+
+# Virtual Environment
+.venv/
+
+# Log Files
+*.log
+
+# Other
+*~
+*.swp
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Repomix files
+repomix/
+*.repomix
+repomix-output.xml
+repomix-output.json
+repomix.config.json

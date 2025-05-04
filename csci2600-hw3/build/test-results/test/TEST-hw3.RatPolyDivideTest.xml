@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw3.RatPolyDivideTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2025-03-13T00:58:38.199Z" hostname="jumping-jack-146.dynamic2.rpi.edu" time="0.013">
+  <properties/>
+  <testcase name="testDivEvaltoSingleCoeff()" classname="hw3.RatPolyDivideTest" time="0.002"/>
+  <testcase name="testDivByZero()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivExampleFromPset()" classname="hw3.RatPolyDivideTest" time="0.002"/>
+  <testcase name="testDivisionNaNtoNonNaN()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivExamplesFromSpec()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivisionZeroFromZero()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivComplexII()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivisionNaNtoNaN()" classname="hw3.RatPolyDivideTest" time="0.001"/>
+  <testcase name="testDivtoMultipleTerms()" classname="hw3.RatPolyDivideTest" time="0.001"/>
+  <testcase name="testBigDiv()" classname="hw3.RatPolyDivideTest" time="0.004"/>
+  <testcase name="testDivisionZeroAndNonZero()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivtoSingleTerm()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivComplexI()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <testcase name="testDivisionByOne()" classname="hw3.RatPolyDivideTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

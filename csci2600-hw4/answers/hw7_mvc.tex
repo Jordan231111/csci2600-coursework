@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\begin{document}
+
+\begin{center}
+\textbf{MVC Classification for Homework 7}
+\end{center}
+
+\textbf{Model:}
+\begin{itemize}
+\item CampusModel (entire class)
+\item CampusModel.MapNode (inner class)
+\item CampusModel.Building (inner class)
+\item CampusModel.PathSegment (inner class)
+\item CampusModel.BuildingInfo (inner class)
+\end{itemize}
+
+\textbf{View:}
+\begin{itemize}
+\item CampusPaths.CampusPathsController.listBuildings() (method)
+\item CampusPaths.CampusPathsController.displayPath() (method)
+\item CampusPaths.CampusPathsController.printWelcome() (method)
+\item CampusPaths.CampusPathsController.printMenu() (method)
+\item CampusPaths.CampusPathsController parts that output to the user (System.out.println() calls)
+\end{itemize}
+
+\textbf{Controller:}
+\begin{itemize}
+\item CampusPaths.main() (method)
+\item CampusPaths.CampusPathsController.run() (method)
+\item CampusPaths.CampusPathsController.processCommand() (method)
+\item CampusPaths.CampusPathsController.findRoute() (parts that process user input and call the model)
+\item CampusPaths.CampusPathsController.close() (method)
+\end{itemize}
+
+\textbf{None of the above:}
+\begin{itemize}
+\item Any test classes (CampusPathsTest, CampusModelTest, etc.)
+\end{itemize}
+
+\end{document} 

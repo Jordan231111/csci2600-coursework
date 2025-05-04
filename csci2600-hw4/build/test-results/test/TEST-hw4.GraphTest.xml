@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw4.GraphTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:35" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.016">
+  <properties/>
+  <testcase name="testEmptyGraph()" classname="hw4.GraphTest" time="0.011"/>
+  <testcase name="testAddMultipleEdges()" classname="hw4.GraphTest" time="0.001"/>
+  <testcase name="testAddMultipleNodes()" classname="hw4.GraphTest" time="0.0"/>
+  <testcase name="testAddSingleEdge()" classname="hw4.GraphTest" time="0.001"/>
+  <testcase name="testAddSingleNode()" classname="hw4.GraphTest" time="0.0"/>
+  <testcase name="testReflexiveEdge()" classname="hw4.GraphTest" time="0.0"/>
+  <testcase name="testMultigraph()" classname="hw4.GraphTest" time="0.0"/>
+  <testcase name="testAddDuplicateNode()" classname="hw4.GraphTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

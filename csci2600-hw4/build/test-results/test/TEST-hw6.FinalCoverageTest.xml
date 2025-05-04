@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw6.FinalCoverageTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.002">
+  <properties/>
+  <testcase name="testFormatPathResult()" classname="hw6.FinalCoverageTest" time="0.0"/>
+  <testcase name="testAddWeightedEdges()" classname="hw6.FinalCoverageTest" time="0.001"/>
+  <testcase name="testEnvironmentMethods()" classname="hw6.FinalCoverageTest" time="0.0"/>
+  <testcase name="testFindPathErrorHandling()" classname="hw6.FinalCoverageTest" time="0.001"/>
+  <testcase name="testBuildSharedSetCounts()" classname="hw6.FinalCoverageTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

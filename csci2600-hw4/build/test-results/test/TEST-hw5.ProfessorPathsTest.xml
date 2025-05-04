@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw5.ProfessorPathsTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:35" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.11">
+  <properties/>
+  <testcase name="testFindPathLexicographicalCourseChoice()" classname="hw5.ProfessorPathsTest" time="0.011"/>
+  <testcase name="testFindPathNoPathExists()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testCyclicPath()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testFindPathOnEmptyGraph()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testMainMethodLargeTest()" classname="hw5.ProfessorPathsTest" time="0.008"/>
+  <testcase name="testFindPathBothProfessorsUnknown()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testFindPathSimpleDirectPath()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testCreateNewGraphWithNullOrEmpty()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testPathWithMultipleOptions()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testMainMethod()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testComplexNetwork()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testCreateNewGraphWithErrorHandling()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathWithNullParameters()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathUnknownProfessorEnd()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathLexicographicalProfessorChoice()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathWithSpecialChars()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testHandlingNullAndEmptyValues()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testMultiStepPath()" classname="hw5.ProfessorPathsTest" time="0.001"/>
+  <testcase name="testInvalidFileFormat()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testMainMethodFileNotFound()" classname="hw5.ProfessorPathsTest" time="0.001"/>
+  <testcase name="testFindPathSelfExistentProfessor()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFileNotFound()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathShortestPathChosen()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathOnLargeGraph()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testFindPathUnknownProfessorStart()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testSingleNodeNetwork()" classname="hw5.ProfessorPathsTest" time="0.004"/>
+  <testcase name="testFindPathLongerPath()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testReloadGraphWithNewData()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testFindPathSameUnknownProfessor()" classname="hw5.ProfessorPathsTest" time="0.003"/>
+  <testcase name="testGetAllProfessorNames()" classname="hw5.ProfessorPathsTest" time="0.002"/>
+  <testcase name="testPathSegmentMethods()" classname="hw5.ProfessorPathsTest" time="0.007"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

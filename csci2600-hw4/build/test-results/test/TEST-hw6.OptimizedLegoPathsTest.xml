@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw6.OptimizedLegoPathsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.014">
+  <properties/>
+  <testcase name="testLegoParserEdgeCases()" classname="hw6.OptimizedLegoPathsTest" time="0.001"/>
+  <testcase name="testPerformanceOnLargerGraph()" classname="hw6.OptimizedLegoPathsTest" time="0.008"/>
+  <testcase name="testNoPathBetweenParts()" classname="hw6.OptimizedLegoPathsTest" time="0.001"/>
+  <testcase name="testUnknownParts()" classname="hw6.OptimizedLegoPathsTest" time="0.0"/>
+  <testcase name="testMultipleSharedSets()" classname="hw6.OptimizedLegoPathsTest" time="0.0"/>
+  <testcase name="testBasicPathFinding()" classname="hw6.OptimizedLegoPathsTest" time="0.001"/>
+  <testcase name="testSelfPath()" classname="hw6.OptimizedLegoPathsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw0.BallContainerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-01-18T02:40:52" hostname="jumping-jack-198.dynamic2.rpi.edu" time="0.013">
+  <properties/>
+  <testcase name="testAdd()" classname="hw0.BallContainerTest" time="0.006"/>
+  <testcase name="testClear()" classname="hw0.BallContainerTest" time="0.001"/>
+  <testcase name="testSize()" classname="hw0.BallContainerTest" time="0.002"/>
+  <testcase name="testVolumeAfterClear()" classname="hw0.BallContainerTest" time="0.0"/>
+  <testcase name="testDifferentColors()" classname="hw0.BallContainerTest" time="0.0"/>
+  <testcase name="testContains()" classname="hw0.BallContainerTest" time="0.001"/>
+  <testcase name="testRemove()" classname="hw0.BallContainerTest" time="0.0"/>
+  <testcase name="testVolume()" classname="hw0.BallContainerTest" time="0.0"/>
+  <testcase name="testIterator()" classname="hw0.BallContainerTest" time="0.001"/>
+  <testcase name="testAreSameColor()" classname="hw0.BallContainerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

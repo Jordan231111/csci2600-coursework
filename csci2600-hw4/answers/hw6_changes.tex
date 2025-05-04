@@ -1,0 +1,147 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.95}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{blue},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=4
+}
+
+\lstset{style=mystyle}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
+
+\begin{document}
+
+\section*{Homework 6: Changes and Fixes}
+
+This document outlines the changes made to the hw6 code to resolve compilation and test issues.
+
+\subsection*{Issue 1: Serialization Warnings Treated as Errors}
+
+Submitty was using \texttt{-Werror} flag, causing serialization warnings to be treated as errors.
+
+\textbf{Main Problems:}
+\begin{enumerate}
+    \item Missing \texttt{serialVersionUID} in exception classes
+    \item Non-serializable fields in \texttt{SharedSetCountsTask} serializable class
+\end{enumerate}
+
+\textbf{Changes in \texttt{MalformedDataException.java}:}
+\begin{lstlisting}[language=Java]
+public class MalformedDataException extends RuntimeException {
+    private static final long serialVersionUID = 1L; // Added this line
+    
+    // Rest of the class unchanged
+}
+\end{lstlisting}
+
+\textbf{Changes in \texttt{LegoParser.java} (inner MalformedDataException):}
+\begin{lstlisting}[language=Java]
+public static class MalformedDataException extends IOException {
+    private static final long serialVersionUID = 1L; // Added this line
+    
+    // Rest of the class unchanged
+}
+\end{lstlisting}
+
+\textbf{Changes in \texttt{LegoPaths.java} (SharedSetCountsTask class):}
+\begin{lstlisting}[language=Java]
+private static class SharedSetCountsTask extends RecursiveAction {
+    private static final long serialVersionUID = 1L;
+    
+    // Added transient to non-serializable fields
+    private final transient List<Set<String>> partsSets;
+    private final int start;
+    private final int end;
+    private final transient Map<String, Map<String, Integer>> sharedCounts;
+    
+    // Rest of the class unchanged
+}
+\end{lstlisting}
+
+\subsection*{Issue 2: Package Visibility and Structure}
+
+Tests could not properly access internal classes, and there were issues with cross-package dependencies.
+
+\textbf{Main Problems:}
+\begin{enumerate}
+    \item Inner benchmark classes not accessible to tests
+    \item Cross-package references between hw4 and hw6 improperly handled
+\end{enumerate}
+
+\textbf{Solution:}
+\begin{enumerate}
+    \item Extracted \texttt{BenchmarkRunner} and \texttt{BenchmarkResult} into separate public classes
+    \item Modified the build process and imports to ensure hw4 classes were properly accessible to hw6
+\end{enumerate}
+
+\subsection*{Issue 3: Properly Testing in a Submission-Like Environment}
+
+Local tests passed but Submitty tests failed due to environmental differences.
+
+\textbf{Added Custom Gradle Task:}
+\begin{lstlisting}
+// Task that mimics Submitty's strict compilation
+task compileWithSubmittySettings(type: JavaCompile) {
+    source = fileTree(dir: 'src/main/java', includes: ['hw6/**/*.java', 'hw4/**/*.java'])
+    classpath = sourceSets.main.compileClasspath
+    destinationDirectory = file("$buildDir/classes/submitty")
+    
+    options.compilerArgs << '-Xlint:all' // Enable all warnings
+    options.compilerArgs << '-Werror'    // Treat warnings as errors
+    
+    // Print the command being run
+    doFirst {
+        println "Running compilation with Submitty-like settings (warnings as errors):"
+        println "Files being compiled: ${source.files.size()}"
+        source.files.each { println "  - ${it.path.replace(project.projectDir.toString() + '/', '')}" }
+    }
+}
+\end{lstlisting}
+
+This task allowed us to catch the same warnings that would be treated as errors in Submitty, ensuring our code would pass compilation in the grading environment.
+
+\subsection*{Results and Verification}
+
+After making these changes:
+\begin{enumerate}
+    \item All tests pass locally: \texttt{./gradlew test} runs successfully
+    \item The strict compilation check passes: \texttt{./gradlew compileWithSubmittySettings} completes without errors
+    \item Build process succeeds: \texttt{./gradlew build} passes all checks
+\end{enumerate}
+
+These changes ensured that the code would be properly compiled and tested in the Submitty environment, resolving the submission issues.
+
+\end{document} 

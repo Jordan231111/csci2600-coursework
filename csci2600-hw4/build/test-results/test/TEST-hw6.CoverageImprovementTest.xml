@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw6.CoverageImprovementTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.031">
+  <properties/>
+  <testcase name="testBenchmarkLegoPathsAdditional()" classname="hw6.CoverageImprovementTest" time="0.004"/>
+  <testcase name="testBenchmarkLegoPathsCoverage()" classname="hw6.CoverageImprovementTest" time="0.004"/>
+  <testcase name="testLegoParserAndPathsCoverage()" classname="hw6.CoverageImprovementTest" time="0.001"/>
+  <testcase name="testLegoParserExceptionalPaths()" classname="hw6.CoverageImprovementTest" time="0.002"/>
+  <testcase name="testGraphAlgorithmsCoverage()" classname="hw6.CoverageImprovementTest" time="0.001"/>
+  <testcase name="testLegoPathsEdgeCases()" classname="hw6.CoverageImprovementTest" time="0.01"/>
+  <testcase name="testLegoParserExceptions()" classname="hw6.CoverageImprovementTest" time="0.002"/>
+  <testcase name="testLegoPathsMainMethod()" classname="hw6.CoverageImprovementTest" time="0.001"/>
+  <testcase name="testLegoParserAdditionalCoverage()" classname="hw6.CoverageImprovementTest" time="0.001"/>
+  <testcase name="testSharedSetCountsTaskDirect()" classname="hw6.CoverageImprovementTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

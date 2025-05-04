@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"hw0","c":"RandomHello","l":"getGreeting()"},{"p":"hw0","c":"RandomHello","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"hw0","c":"RandomHello","l":"RandomHello()","u":"%3Cinit%3E()"}];updateSearchResults();

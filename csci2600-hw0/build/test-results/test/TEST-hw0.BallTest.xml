@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw0.BallTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-01-18T02:40:52" hostname="jumping-jack-198.dynamic2.rpi.edu" time="0.001">
+  <properties/>
+  <testcase name="testColor()" classname="hw0.BallTest" time="0.0"/>
+  <testcase name="testCreateWithValidStringVolume()" classname="hw0.BallTest" time="0.001"/>
+  <testcase name="testVolume()" classname="hw0.BallTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

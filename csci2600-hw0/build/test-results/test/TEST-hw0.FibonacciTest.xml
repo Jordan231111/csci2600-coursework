@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw0.FibonacciTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-01-18T02:40:52" hostname="jumping-jack-198.dynamic2.rpi.edu" time="0.003">
+  <properties/>
+  <testcase name="testThrowsIllegalArgumentException()" classname="hw0.FibonacciTest" time="0.0"/>
+  <testcase name="testBaseCase()" classname="hw0.FibonacciTest" time="0.0"/>
+  <testcase name="expectedIllegalArgumentException()" classname="hw0.FibonacciTest" time="0.001"/>
+  <testcase name="testInductiveCase()" classname="hw0.FibonacciTest" time="0.0"/>
+  <testcase name="testLargeN()" classname="hw0.FibonacciTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

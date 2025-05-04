@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hw7.CampusPathsMainTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-04-23T03:55:36" hostname="jumping-jack-169.dynamic2.rpi.edu" time="0.008">
+  <properties/>
+  <testcase name="testMainWithIOException()" classname="hw7.CampusPathsMainTest" time="0.003"/>
+  <testcase name="testMainWithMultipleCommands()" classname="hw7.CampusPathsMainTest" time="0.003"/>
+  <testcase name="testMainWithUnknownOption()" classname="hw7.CampusPathsMainTest" time="0.001"/>
+  <testcase name="testMainWithQuitCommand()" classname="hw7.CampusPathsMainTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Error loading campus data: non_existent_file.csv (No such file or directory)
+]]></system-err>
+</testsuite>

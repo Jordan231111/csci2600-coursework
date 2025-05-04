@@ -1,0 +1,20 @@
+{
+    "output": {
+      "compress": false,
+      "showLineNumbers": true
+    },
+    "ignore": {
+      "customPatterns": [
+        "data/perf_test/very_large_network.csv",
+        "data/perf_test/medium_network.csv",
+        "data/perf_test/large_network.csv",
+        "data/large_network.csv",
+        "data/perf_test/test.csv",
+        "data/test_small.csv",
+        "data/perf_test/small_test_network.csv",
+        "data/test_medium.csv"
+
+      ]
+    }
+  }
+  

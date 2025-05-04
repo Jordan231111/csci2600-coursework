@@ -1,0 +1,60 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}
+\geometry{letterpaper, margin=1in}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=cyan,
+}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1ex}
+
+\begin{document}
+
+\section*{Homework 5: Changes to hw4}
+
+I made several strategic changes to the hw4 code to optimize performance and memory usage for the large-scale professor paths assignment:
+
+\subsection*{Optimization of Graph Implementation}
+
+\begin{itemize}
+    \item \textbf{Disabled \texttt{checkRep()} for Performance}: The most significant change was ensuring the \texttt{CHECK\_REP\_ENABLED} flag in \texttt{Graph.java} was set to \texttt{false}. This optimization eliminated the expensive representation invariant checks during performance-critical operations, substantially improving both memory usage and execution time when working with large datasets.
+    
+    \item \textbf{Retained Core Functionality}: The core Graph ADT implementation and API remained unchanged, as the existing functionality provided all the necessary features:
+    \begin{itemize}
+        \item Adding nodes (professors) with string identifiers
+        \item Adding directed edges with string labels (courses)
+        \item Retrieving children with their edge labels (needed for BFS)
+        \item Support for multiple edges between the same pair of nodes (allowing professors to teach multiple shared courses)
+    \end{itemize}
+\end{itemize}
+
+\subsection*{BFS Implementation Optimizations}
+
+\begin{itemize}
+    \item \textbf{Lexicographical Path Finding}: Improved the breadth-first search algorithm by separating professor node sorting from course sorting. This ensured that paths are truly lexicographically ordered while minimizing performance impact.
+    
+    \item \textbf{Memory-Efficient Collection Usage}: Used efficient data structures for tracking visited nodes, maintaining the queue, and storing paths during BFS traversal. These optimizations were critical for processing large networks within the 256MB memory constraint.
+    
+    \item \textbf{Efficient Path Construction}: Implemented an efficient path construction mechanism that builds paths incrementally during traversal rather than reconstructing them afterward, reducing both time and memory overhead.
+\end{itemize}
+
+\subsection*{Test Dataset Generation}
+
+\begin{itemize}
+    \item Created Python scripts (\texttt{generate\_medium.py} and \texttt{generate\_larger.py}) for generating test datasets of different sizes to properly validate performance and memory usage.
+    
+    \item Generated a large test network with 5,000 professors and 1,000 courses that creates approximately 1.5 million potential edges, providing a rigorous test for the implementation.
+\end{itemize}
+
+These changes enabled the ProfessorPaths implementation to efficiently process large networks within the required memory constraints while maintaining correct functionality and performance requirements.
+
+\end{document} 
